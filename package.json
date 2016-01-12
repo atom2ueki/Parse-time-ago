@@ -1,0 +1,24 @@
+{
+  "name": "time-ago",
+  "version": "0.0.1",
+  "description": "a small node plug-in return a post passed away time",
+  "main": "index.js",
+  "scripts": {
+    "jshint": "./node_modules/jshint/bin/jshint ./src/ParseTimeAgo.js",
+    "test": "mocha ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atom2ueki/Parse-time-ago.git"
+  },
+  "author": "Tony Li",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.11.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.4"
+  }
+}
