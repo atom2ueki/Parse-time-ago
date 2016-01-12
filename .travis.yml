@@ -1,8 +1,3 @@
 language: node_js
 node_js:
-  - "4.0.0"
-install:
-  - npm install
-test:
-  - npm run jshint
-  - npm run test
+  - "4"
