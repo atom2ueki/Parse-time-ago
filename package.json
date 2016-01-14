@@ -4,6 +4,7 @@
   "description": "a small node plug-in return a post passed away time",
   "main": "index.js",
   "scripts": {
+    "lint": "jshint ./src/ParseTimeAgo.js",
     "test": "mocha ./test/index.js"
   },
   "repository": {
