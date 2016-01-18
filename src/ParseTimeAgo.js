@@ -7,5 +7,5 @@ module.exports = {
     var postTime = moment.utc(parseTime);
     var now = moment.utc();
     return moment.duration(now.diff(postTime)).humanize();
-  },
+  }
 };
