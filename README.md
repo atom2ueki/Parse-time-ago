@@ -6,4 +6,4 @@
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/atom2ueki/parse-time-ago/blob/master/LICENSE)
 
 - [x] CI Mocha test
-- [] CI npm auto publish
+- [ ] CI npm auto publish
